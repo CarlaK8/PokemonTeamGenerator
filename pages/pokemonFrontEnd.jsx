@@ -12,7 +12,7 @@ export default function PokemonFrontEnd() {
         onClick={async () => setTeam(await p.kantoPokemon())}
         className={s.button}
       >
-        Team get!
+        Generate!
       </button>
 
       <h2 className={s.result}> Your team should be: </h2>
